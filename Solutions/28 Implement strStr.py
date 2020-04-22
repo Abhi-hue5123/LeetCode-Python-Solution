@@ -14,7 +14,7 @@ class Solution:
                 
                 if haystack[i+j]!=needle[j]:
                     break
-            else:
-                return i
+                else:
+                    return i
         else:
             return -1
